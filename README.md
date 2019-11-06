@@ -1,5 +1,5 @@
-## MEMEit
-#Project for CS 320
+# MEMEit
+## Project for CS 320
 
 A cloud based storage system for memes.
 
