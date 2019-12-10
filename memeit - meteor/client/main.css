@@ -1,0 +1,39 @@
+.body {
+  width: 100%;
+  height: 100%;
+}
+
+.topmenu.menu {
+    background-color: #FFB839;
+    /* background-color: black; */
+    /*overflow: visible;*/
+    /*position: fixed;*/
+    top: 0;
+    width: 100%;
+    /* z-index: 9999; */
+}
+
+#logo {
+  font-family: "Impact";
+  font-size: 25px;
+  color: black;
+}
+
+p.copyright {
+  width: 100%;
+  line-height: 50px;
+  text-align: right;
+  padding-top: 15px;
+  padding-right: 20px;
+  /* align-content: center; */
+  color: black;
+  /* font-family: "Al Nile"; */
+}
+
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #FFB839;
+  position: fixed;
+}
