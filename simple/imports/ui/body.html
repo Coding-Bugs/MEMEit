@@ -9,8 +9,10 @@
 
       {{#if currentUser}}
         <form class="new-task app">
+          Title:
           <input type="text" name="title" placeholder="Type to add a Title" accept="image/gif, image/png, image/jpeg"/>
-          <input type="text"  name="url" placeholder="Type URL to add"/>
+          URL to the Meme:
+          <input type="url"  name="url" placeholder="https://www.example.com/pie.png"/>
           <button class="new-task app">Submit</button>
         </form>
       {{/if}}

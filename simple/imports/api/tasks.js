@@ -30,8 +30,9 @@ Meteor.methods({
     let month = dateObj.getUTCMonth() + 1; //months from 1-12
     let day = dateObj.getUTCDate();
     let year = dateObj.getUTCFullYear();
-
-    newDate = year + "/" + month + "/" + day;
+    let hour = dateObj.getUTCHours();
+    let mins = dateObj.getUTCMinutes();
+    newDate = year + "/" + month + "/" + day + "/" + hour + "/" + mins;
 
     Tasks.insert({
       text,

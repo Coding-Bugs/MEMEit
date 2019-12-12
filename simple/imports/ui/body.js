@@ -31,14 +31,14 @@ Template.body.events({
     const target = event.target;
     const image = target.url.value;
     const title = target.title.value;
-    if(image != ''){
+    // if(image != ''){
       //
       // Insert a task into the collection
       Meteor.call('tasks.insert', image, title);
-    }
+    // }
 
     // Clear form
-    target.image.value = '';
+    target.url.value = '';
     target.title.value = '';
   },
   'change .hide-completed input'(event, instance) {
