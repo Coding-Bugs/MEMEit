@@ -1,0 +1,27 @@
+<body class="app">
+  <div class="container app">
+    <header class="app">
+        <h1>Blog Posts List</h1>
+
+      <label class="hide-completed app"></label>
+
+      {{> loginButtons}}
+
+      {{#if currentUser}}
+        <form class="new-task app">
+          Title:
+          <input type="text" name="title" placeholder="Type to add a Title" accept="image/gif, image/png, image/jpeg"/>
+          URL to the Meme:
+          <input type="url"  name="url" placeholder="https://www.example.com/pie.png"/>
+          <button class="new-task app">Submit</button>
+        </form>
+      {{/if}}
+    </header>
+
+    <ul class="app">
+      {{#each tasks}}
+        {{> task}}
+      {{/each}}
+    </ul>
+  </div>
+</body>
