@@ -1,7 +1,7 @@
-body {
+body.app {
   font-family: sans-serif;
   background-color: #315481;
-  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  background-image: linear-gradient(to bottom, black, yellow 100%);
   background-attachment: fixed;
 
   position: absolute;
@@ -16,25 +16,25 @@ body {
   font-size: 14px;
 }
 
-.container {
+.container.app {
   max-width: 600px;
   margin: 0 auto;
   min-height: 100%;
   background: white;
 }
 
-header {
+header.app {
   background: #d2edf4;
   background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
   padding: 20px 15px 15px 15px;
   position: relative;
 }
 
-#login-buttons {
+#login-buttons.app {
   display: block;
 }
 
-h1 {
+h1.app {
   font-size: 1.5em;
   margin: 0;
   margin-bottom: 10px;
@@ -42,13 +42,13 @@ h1 {
   margin-right: 1em;
 }
 
-form {
+form.app {
   margin-top: 10px;
   margin-bottom: -10px;
   position: relative;
 }
 
-.new-task input {
+.new-task.app input {
   box-sizing: border-box;
   padding: 10px 0;
   background: transparent;
@@ -58,17 +58,17 @@ form {
   font-size: 1em;
 }
 
-.new-task input:focus{
+.new-task.app input:focus{
   outline: 0;
 }
 
-ul {
+ul.app {
   margin: 0;
   padding: 0;
   background: white;
 }
 
-.delete {
+.delete.app {
   float: right;
   font-weight: bold;
   background: none;
@@ -77,35 +77,35 @@ ul {
   position: relative;
 }
 
-li {
+li.app {
   position: relative;
   list-style: none;
   padding: 15px;
   border-bottom: #eee solid 1px;
 }
 
-li .text {
+li.app.text {
   margin-left: 10px;
 }
 
-li.checked {
+li.app.checked {
   color: #888;
 }
 
-li.checked .text {
+li.app.checked .text {
   text-decoration: line-through;
 }
 
-li.private {
+li.app.private {
   background: #eee;
   border-color: #ddd;
 }
 
-header .hide-completed {
+header.app .hide-completed {
   float: right;
 }
 
-.toggle-private {
+.toggle-private.app {
   margin-left: 5px;
 }
 

@@ -18,17 +18,25 @@ if (Meteor.isServer) {
 }
 
 Meteor.methods({
-  'tasks.insert'(text) {
-    check(text, String);
-
+  'tasks.insert'(text, title) {
+    // check(url, String);
+    check(title, String)
     // Make sure the user is logged in before inserting a task
     if (! Meteor.userId()) {
       throw new Meteor.Error('not-authorized');
     }
 
+    let dateObj = new Date();
+    let month = dateObj.getUTCMonth() + 1; //months from 1-12
+    let day = dateObj.getUTCDate();
+    let year = dateObj.getUTCFullYear();
+
+    newDate = year + "/" + month + "/" + day;
+
     Tasks.insert({
       text,
-      createdAt: new Date(),
+      title,
+      createdAt: newDate,
       owner: Meteor.userId(),
       username: Meteor.user().username,
     });
