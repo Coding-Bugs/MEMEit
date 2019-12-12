@@ -1,7 +1,8 @@
 body.app {
   font-family: sans-serif;
-  background-color: #315481;
-  background-image: linear-gradient(to bottom, black, gold 100%);
+  /* background-color: #315481; */
+  background-color: #2D1012;
+  background-image: linear-gradient(to bottom, black);
   background-attachment: fixed;
 
   position: absolute;
@@ -17,15 +18,16 @@ body.app {
 }
 
 .container.app {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   min-height: 100%;
   background: white;
 }
 
 header.app {
-  background: #d2edf4;
-  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+  /* background: #d2edf4; */
+  /* background: gold; */
+  background-image: linear-gradient(to bottom, #D89B2A, #E1E5F0 100%);
   padding: 20px 15px 15px 15px;
   position: relative;
 }

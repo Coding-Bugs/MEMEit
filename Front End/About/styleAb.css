@@ -1,0 +1,58 @@
+.ui.borderless.topmenu.menu{
+  background-color: #F5F5F5;
+  box-shadow: none;
+  border: none;
+}
+
+.ui.centered.image{
+  width: 200px;
+}
+
+.ui.borderless.midmenu.menu{
+  box-shadow: none;
+  border: none;
+}
+
+.footer-background{
+  background-color: #292929;
+  height: 350px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ui.column{
+  color: #F5F5F5;
+}
+
+.borderless.bottmenu.menu {
+  background-color: #292929;
+  box-shadow: none;
+  border: none;
+}
+
+.fitted.text{
+  font-size: small;
+  font-style: normal;
+}
+
+.borderless.copymenu.menu {
+  background-color: #292929;
+  color: #F5F5F5;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  box-shadow: none;
+  border: none;
+}
+
+.ui.centered.image{
+  background-color: lightgray;
+  width: 30%;
+}
+
+ui.dropdown.fitted.item{
+  padding-top: 100px;
+}
+
+.ui.massive.inverted.borderless.bottmenu.menu{
+  background-color: #1c1c1c;
+}

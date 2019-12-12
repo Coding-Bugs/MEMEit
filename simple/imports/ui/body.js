@@ -9,7 +9,9 @@ import './body.html';
 
 Template.body.onCreated(function bodyOnCreated() {
   this.state = new ReactiveDict();
+  if(Meteor.userId){
   Meteor.subscribe('tasks');
+}
 });
 
 Template.body.helpers({
@@ -31,11 +33,13 @@ Template.body.events({
     const target = event.target;
     const image = target.url.value;
     const title = target.title.value;
-    // if(image != '' && title != ''){
+    if(image != '' && title != ''){
       //
       // Insert a task into the collection
       Meteor.call('tasks.insert', image, title);
-    // }
+  } else {
+      alert("You must fill out the Title and URL fields to post.");
+  }
 
     // Clear form
     target.url.value = '';
