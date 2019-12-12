@@ -1,0 +1,26 @@
+.ui.inverted.header{
+  padding-top: 10px;
+}
+
+
+.ui.content{
+   padding-bottom: 20px;
+ }
+
+.ui.checkbox{
+  margin-right: 1120px;
+}
+
+.ui.fluid.submit.large.button{
+  background-color: #2185d1;
+}
+
+.ui.forget.item{
+  padding-bottom: 5px;
+}
+
+/*Forget*/
+
+.ui.centered.formenu.container{
+  padding-left: 400px;
+}
