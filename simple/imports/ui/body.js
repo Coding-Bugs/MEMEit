@@ -31,7 +31,7 @@ Template.body.events({
     const target = event.target;
     const image = target.url.value;
     const title = target.title.value;
-    // if(image != ''){
+    // if(image != '' && title != ''){
       //
       // Insert a task into the collection
       Meteor.call('tasks.insert', image, title);
