@@ -10,19 +10,19 @@
       {{> loginButtons}}
 
       {{#if currentUser}}
-        <form class="new-task app">
-          Title:
+        <form class="new-image app">
+          <label>Title:</label>
           <input type="text" name="title" placeholder="Type to add a Title" accept="image/gif, image/png, image/jpeg"/>
-          URL to the Meme:
+          <label>URL to the Meme:</label>
           <input type="url"  name="url" placeholder="https://www.example.com/pie.png"/>
-          <button class="new-task app">Submit</button>
+          <button class="new-image app">Submit</button>
         </form>
       {{/if}}
     </header>
 
     <ul class="app">
-      {{#each tasks}}
-        {{> task}}
+      {{#each images}}
+        {{> image}}
       {{/each}}
     </ul>
   </div>

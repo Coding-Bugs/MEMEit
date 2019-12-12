@@ -1,4 +1,4 @@
-<template name="task">
+<template name="image">
   <li class="{{#if private}}private{{/if}} app">
     <button class="delete app">&times;</button>
 
@@ -12,9 +12,8 @@
       </button>
     {{/if}}
 
-
       <span class="text"><strong>{{username}}</strong> - {{title}} - {{createdAt}}</span>
-      <img  scr="{{url}}" alt="{{url}}" width="700" height="400">
+      <img  src="{{url}}" alt="{{url}}" width="700" height="400">
 
   </li>
 </template>
