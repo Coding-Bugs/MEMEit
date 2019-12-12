@@ -9,5 +9,12 @@
 
 .ui.fluid.image{
   padding-top: 20px;
+}
 
+.ui.large.button{
+  margin-bottom: 10px;
+}
+
+.ui.vertical.inverted.footer.segment{
+  padding-bottom: 10px;
 }
