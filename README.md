@@ -5,9 +5,9 @@ A cloud based storage system for memes.
 
 
 Team members
-  Logan Nelson 
-  Ian Kieswether
-  Yekaalo Habtemichael
+ -  Logan Nelson 
+ -  Ian Kieswether
+ -  Yekaalo Habtemichael
   
 Status: Finished Initial Phase
 
