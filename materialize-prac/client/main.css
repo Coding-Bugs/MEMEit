@@ -1,0 +1,39 @@
+#bodyMain {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+main {
+  /* flex: 1 0 auto; */
+}
+
+p {
+    align-text: center;
+    justify-content: center;
+
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    max-height: 100vh;
+    flex-direction: column;
+    z-index: 9999;
+}
+
+ul {
+    padding-right: 20px;
+}
+
+#login {
+    font-size: x-large;
+    color: white;
+}
+
+#logo {
+    padding-left: 20px;
+}
