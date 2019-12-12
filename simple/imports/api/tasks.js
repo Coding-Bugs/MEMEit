@@ -32,7 +32,7 @@ Meteor.methods({
     let year = dateObj.getUTCFullYear();
     let hour = dateObj.getUTCHours();
     let mins = dateObj.getUTCMinutes();
-    newDate = year + "/" + month + "/" + day + "/" + hour + "/" + mins;
+    newDate = hour + ":" + mins + "," + month + "/" + day + "/" + year;
 
     Tasks.insert({
       text,
